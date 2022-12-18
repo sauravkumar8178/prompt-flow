@@ -308,7 +308,7 @@ img {
   font-size: 1.25rem;
 }
 
-/*==================== BUTTONS ====================*/
+
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -333,7 +333,7 @@ img {
   align-items: center;
 }
 
-/*==================== ABOUT ====================*/
+
 .about_img {
   width: 200px;
   border-radius: .5rem;
@@ -372,7 +372,8 @@ img {
   display: flex;
   justify-content: center;
 }
-/*==================== SKILLS ====================*/
+
+
 .blockchain_img,
 .tool_img,
 .backend_img,

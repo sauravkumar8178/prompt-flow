@@ -1,0 +1,24 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "My personal website to my own use",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauravkumar8178/Personal-website.git"
+  },
+  "author": "Saurav Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sauravkumar8178/Personal-website/issues"
+  },
+  "homepage": "https://github.com/sauravkumar8178/Personal-website#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
