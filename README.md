@@ -1,30 +1,55 @@
-# Personal-website
+# Prompt Flow
 
-Full responsive personal protfolio website, Responsive for all devices, built using HTML, CSS and JavaScript.
- <br>
- <a href="https://sauravkumar8178.github.io/Portfolio/"><strong>➥ Live Demo</strong></a>
+**Prompt Flow** is a platform where users can share and discover high-quality prompts for various use cases, including AI tools, creative writing, and more. Built with **Next.js**, Prompt Flow aims to create a community-driven repository of prompts to help users enhance their productivity and creativity.
 
-## Demo Screeshots
+## Features
 
+- **Prompt Sharing**: Users can submit their prompts for others to discover.
+- **Prompt Discovery**: Browse and find useful prompts for your needs.
+- **Community-Driven**: A place for people to contribute, rate, and improve prompts.
+- **User Profiles**: Each user can manage their own prompt collections.
+- **Search Functionality**: Easily find prompts using keywords, categories, or tags.
 
-## Prerequisites
+## Tech Stack
 
-Before you begin, ensure you have met the following requirements:
+- **Frontend**: Next.js
+- **Backend**: Node.js (API integration)
+- **Database**: MongoDB (for storing prompts and user data)
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel / Netlify (for seamless integration with Next.js)
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+## Installation
 
-## Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/prompt-flow.git
+   ```
+2. Install dependencies:
+   ```bash
+   cd prompt-flow
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser and visit [http://localhost:3000](http://localhost:3000).
 
-To run **Portfolio** locally, run this command on your git bash:
+## Contribution
 
-Linux and macOS:
+Contributions are welcome! If you'd like to contribute, please follow these steps:
 
-```bash
-sudo git clone git@github.com:sauravkumar8178/Personal-website.git
-```
-
-Windows:
-
-```bash
-git clone git@github.com:sauravkumar8178/Personal-website.git
-```
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Create a pull request.

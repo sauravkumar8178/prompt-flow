@@ -1,24 +1,24 @@
 {
-  "name": "personal-website",
-  "version": "1.0.0",
-  "description": "My personal website to my own use",
-  "main": "index.js",
+  "name": "prompt-flow",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "npm run lite",
-    "lite": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sauravkumar8178/Personal-website.git"
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.0",
+    "next": "14.2.14",
+    "next-auth": "^4.24.8",
+    "react": "^18",
+    "react-dom": "^18"
   },
-  "author": "Saurav Kumar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sauravkumar8178/Personal-website/issues"
-  },
-  "homepage": "https://github.com/sauravkumar8178/Personal-website#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
